@@ -27,7 +27,7 @@ const DUMMY_EXPENSES = [
 
 const App = () => {
   const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
-
+  const [newexpense, setNewexpense] = useState([]);
 
 
   //old way of creating components
@@ -44,6 +44,8 @@ const App = () => {
       return [expense, ...prevExpenses];
     });
   }
+
+
 
   return (
     <div>
