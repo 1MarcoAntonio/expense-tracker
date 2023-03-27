@@ -23,4 +23,11 @@
 
 .new-expense__actions {
   text-align: right;
+  justify-content: flex-end; /* alinhar os itens à direita */
+  align-items: flex-end;
+}
+
+.add-new-expense {
+  display: flex;
+  justify-content: center;
 }
